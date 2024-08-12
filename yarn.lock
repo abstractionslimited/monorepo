@@ -5895,6 +5895,26 @@ anymatch@^3.0.0, anymatch@^3.0.3, anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
+"api@file:/Users/khanyakupelo/Library/Mobile Documents/com~apple~CloudDocs/WORK/2024/monorepo/apps/api":
+  version "0.1.0"
+  resolved "file:apps/api"
+  dependencies:
+    "@strapi/plugin-cloud" "4.20.4"
+    "@strapi/plugin-documentation" "^4.24.3"
+    "@strapi/plugin-i18n" "4.20.4"
+    "@strapi/plugin-seo" "^1.9.8"
+    "@strapi/plugin-users-permissions" "4.20.4"
+    "@strapi/strapi" "^4.24.3"
+    better-sqlite3 "^11.1.2"
+    bindings "^1.5.0"
+    pg "^8.12.0"
+    pg-connection-string "^2.6.4"
+    react "^18.0.0"
+    react-dom "^18.0.0"
+    react-router-dom "5.3.4"
+    sqlite3 "^5.1.7"
+    styled-components "5.3.3"
+
 app-root-dir@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/app-root-dir/-/app-root-dir-1.0.2.tgz"
@@ -6395,26 +6415,6 @@ babel-preset-react-app@^10.0.1:
     "@babel/runtime" "^7.16.3"
     babel-plugin-macros "^3.1.0"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
-
-"backend@file:/Users/khanyakupelo/Library/Mobile Documents/com~apple~CloudDocs/WORK/2024/monorepo/apps/api":
-  version "0.1.0"
-  resolved "file:apps/api"
-  dependencies:
-    "@strapi/plugin-cloud" "4.20.4"
-    "@strapi/plugin-documentation" "^4.24.3"
-    "@strapi/plugin-i18n" "4.20.4"
-    "@strapi/plugin-seo" "^1.9.8"
-    "@strapi/plugin-users-permissions" "4.20.4"
-    "@strapi/strapi" "^4.24.3"
-    better-sqlite3 "^11.1.2"
-    bindings "^1.5.0"
-    pg "^8.12.0"
-    pg-connection-string "^2.6.4"
-    react "^18.0.0"
-    react-dom "^18.0.0"
-    react-router-dom "5.3.4"
-    sqlite3 "^5.1.7"
-    styled-components "5.3.3"
 
 bail@^1.0.0:
   version "1.0.5"
