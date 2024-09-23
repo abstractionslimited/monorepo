@@ -12,8 +12,7 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,ts,tsx,md}\"",
     "changeset-create": "changeset",
     "changeset-apply": "changeset version",
-    "release": "turbo run build && changeset publish",
-    "heroku-postbuild": "yarn install"
+    "release": "turbo run build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "2.22.0",
