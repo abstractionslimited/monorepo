@@ -22,7 +22,10 @@
     "turbo": "1.2.12"
   },
   "engines": {
-   "node": "18.x",
-  "yarn": "1.22.22"
+    "node": "18.x",
+    "yarn": "1.22.18"
+  },
+  "resolutions": {
+    "yarn": "1.22.18"
   }
 }
